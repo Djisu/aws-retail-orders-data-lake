@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+.DS_Store
+.env
+.venv/
+venv/
+
+data/raw/*
+data/curated/*
+data/rejected/*
+
+!data/raw/.gitkeep
+!data/curated/.gitkeep
+!data/rejected/.gitkeep

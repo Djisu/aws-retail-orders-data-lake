@@ -1,0 +1,5 @@
+order_id,order_date,customer_id,customer_name,region,product,quantity,unit_price,payment_method
+1009,2026-03-03,C009,Esi,Northern,Router,1,450,Card
+1010,2026-03-03,C010,Nana,Greater Accra,SSD,2,600,Mobile Money
+1011,2026-03-03,C011,Adwoa,Ashanti,Keyboard,1,250,Cash
+1012,2026-03-03,C012,Fiifi,Western,Mouse,3,120,Card

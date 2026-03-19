@@ -1,0 +1,5 @@
+order_id,order_date,customer_id,customer_name,region,product,quantity,unit_price,payment_method
+1001,2026-03-01,C001,Ama,Greater Accra,Keyboard,1,250,Card
+1002,2026-03-01,C002,Kojo,Ashanti,Mouse,2,120,Cash
+1003,2026-03-01,C003,Efua,Greater Accra,Monitor,1,900,Card
+1004,2026-03-01,C004,Kwame,Western,USB Cable,3,50,Mobile Money
