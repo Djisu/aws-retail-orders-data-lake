@@ -12,3 +12,28 @@ data/rejected/*
 !data/raw/.gitkeep
 !data/curated/.gitkeep
 !data/rejected/.gitkeep
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+
+# macOS
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Spark
+metastore_db/
+spark-warehouse/
+
+# Logs
+*.log
+
+# Environment files
+.env
+
