@@ -31,6 +31,7 @@ def main():
 
     # Standardize / trim string columns
     string_columns = ["customer_name", "region", "product", "payment_method"]
+
     for c in string_columns:
         df = df.withColumn(c, trim(col(c)))
 
@@ -47,6 +48,7 @@ def main():
 
     # Separate valid and rejected rows
     rejected_df = validated_df.filter(col("rejection_reason").isNotNull())
+
     valid_df = validated_df.filter(col("rejection_reason").isNull()).drop("rejection_reason")
 
     # Deduplicate by order_id
