@@ -1,17 +1,3 @@
-__pycache__/
-*.pyc
-.DS_Store
-.env
-.venv/
-venv/
-
-data/raw/*
-data/curated/*
-data/rejected/*
-
-!data/raw/.gitkeep
-!data/curated/.gitkeep
-!data/rejected/.gitkeep
 # Python
 __pycache__/
 *.pyc
@@ -21,19 +7,29 @@ __pycache__/
 venv/
 env/
 
+# Environment files
+.env
+
 # macOS
 .DS_Store
 
 # Jupyter
 .ipynb_checkpoints/
 
-# Spark
+# Spark / local metadata
 metastore_db/
 spark-warehouse/
 
 # Logs
 *.log
 
-# Environment files
-.env
+# Data lake folders: ignore generated data, keep folder structure
+data/raw/*
+data/curated/*
+data/rejected/*
+
+!data/raw/.gitkeep
+!data/curated/.gitkeep
+!data/rejected/.gitkeep
+
 
